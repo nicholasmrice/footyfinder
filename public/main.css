@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: skyblue;
+  font-family: 'Pacifico';
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  border: 1px solid maroon;
+}
+
+input, button {
+  background: ivory;
+}
+input:hover{
+  background: skyblue;
+}
+button:hover {
+  background: skyblue;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.new-park-form {
+  text-align: center;
+}
+
+.parkContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.parkCard {
+  margin: 1rem;
+}
+
+form {
+  text-align: right;
+}
+
+/* .parkContainer {
+  text-align: center;
+} */
