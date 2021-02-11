@@ -1,29 +1,6 @@
 {
-  "name": "footyfinder",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.11.15"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-  "node": "14.15.0",
-  "npm": "6.14.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nicholasmrice/footyfinder.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nicholasmrice/footyfinder/issues"
-  },
-  "homepage": "https://github.com/nicholasmrice/footyfinder#readme"
+    "axios": "^0.21.1",
+    "react-dom": "^17.0.1"
+  }
 }

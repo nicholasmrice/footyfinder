@@ -1,38 +1,55 @@
-.App {
+body {
+  background-color: black;
+  color: skyblue;
+  font-family: 'Pacifico';
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  border: 1px solid maroon;
+}
+
+input, button {
+  background: ivory;
+}
+input:hover{
+  background: skyblue;
+}
+button:hover {
+  background: skyblue;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.new-park-form {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parkContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.parkCard {
+  margin: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  text-align: right;
 }
+
+/* .parkContainer {
+  text-align: center;
+} */
